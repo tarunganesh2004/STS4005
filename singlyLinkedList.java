@@ -1,5 +1,4 @@
     import java.util.Scanner;
-
     public class singlyLinkedList {
 
         class Node {
@@ -76,6 +75,7 @@
             // } else {
             //     System.out.println("Cycle not created");
             // }
+            
             if (sll.detectCycle()) {
                 System.out.println("Cycle detected");
             } else {
