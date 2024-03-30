@@ -36,5 +36,3 @@ class EquilibriumIndex {
                         + equi.equilibrium(arr, arr_size));
     }
 }
-
-// This code has been contributed by Mayank Jaiswal
