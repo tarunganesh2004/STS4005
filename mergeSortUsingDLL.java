@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main
+public class mergeSortUsingDLL
 {
     static Node head=null;
     static class Node{

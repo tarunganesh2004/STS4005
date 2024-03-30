@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class segregate {
 
         class Node {
             int data;
@@ -11,7 +11,7 @@ public class Main {
             }
         }
 
-        public Node head = null;
+        public static Node head = null;
 
         public void insert(int data) {
             Node newNode = new Node(data);
@@ -26,8 +26,8 @@ public class Main {
             }
         }
         
-        public static void printList(Main list) { 
-        Node currNode = list.head; 
+        public static void printList(segregate list) { 
+        Node currNode = head; 
         while (currNode != null) { 
             System.out.print(currNode.data + " "); 
     
@@ -74,7 +74,7 @@ public class Main {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
-            Main sll = new Main();
+            segregate sll = new segregate();
             for (int i = 0; i < n; i++) {
                 sll.insert(sc.nextInt());
             }
@@ -82,6 +82,7 @@ public class Main {
             sll.seggregate();
             // System.out.println("\n");
             printList(sll);
+            sc.close();
         }
         
 }

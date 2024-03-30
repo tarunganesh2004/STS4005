@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Main
+class Main
 {
     
     class Node{

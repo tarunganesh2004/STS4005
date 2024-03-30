@@ -6,7 +6,7 @@ Write your code in this editor and press "Run" button to execute it.
 
 *******************************************************************************/
 
-public class Main
+public class dllCreation
 {
     
     class Node{
@@ -48,10 +48,10 @@ public class Main
     
 	public static void main(String[] args) {
 	Main dll=new Main();
-dll.insert(4);
-dll.insert(3);
-dll.insert(9);
-dll.insert(7);
-dll.displaydll();
+// dll.insert(4);
+// dll.insert(3);
+// dll.insert(9);
+// dll.insert(7);
+// dll.displaydll();
 	}
 }
