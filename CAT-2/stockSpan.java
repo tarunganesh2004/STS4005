@@ -5,7 +5,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-public class stackSpan {
+public class stockSpan {
     public static void span(int[] p, int[] s, int n) {
         Stack<Integer> st = new Stack<>();
         st.push(0);
