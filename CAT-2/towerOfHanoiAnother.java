@@ -23,14 +23,14 @@ public class towerOfHanoiAnother {
 
     static long count = 0;
 
-    public static void toh1(int N, int from, int to, int aux) {
+    public static long toh1(int N, int from, int to, int aux) {
         if (N == 0) {
-            return ;
+            return 0;
         }
         toh1(N - 1, from, aux, to);
         System.out.println("move disk " + N + " from rod " + from + " to rod " + to);
-        // count++;
+        count++;
         toh1(N - 1, aux, to, from);
-        // return count;
+        return count;
     }
 }
