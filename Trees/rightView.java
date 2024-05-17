@@ -61,6 +61,7 @@ public class rightView {
        node root = built(s);
 
        List<Integer> r = new ArrayList<>();
+       // Prints rightView
        rightview(root, r, 0);
        for (int i : r) {
         System.out.print(i + " ");
